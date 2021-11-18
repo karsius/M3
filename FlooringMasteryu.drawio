@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T20:45:59.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="MfBz8Qdl0OTCSBmuSEum" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T20:52:00.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="iMdWJXO3DlnBlj9Qvihj" version="15.8.2" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="4262" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -655,7 +655,7 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLESVQoLexFltELfVNAb-158" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-154">
+        <mxCell id="WLESVQoLexFltELfVNAb-158" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-154" target="WLESVQoLexFltELfVNAb-162">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="1090" as="sourcePoint" />
             <mxPoint x="390" y="1100" as="targetPoint" />
@@ -678,6 +678,38 @@
         </mxCell>
         <mxCell id="WLESVQoLexFltELfVNAb-160" value="Display no order &lt;br&gt;exists for selected date and order number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="70" y="910" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-162" value="Display Customer&lt;br&gt;&amp;nbsp;name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-163" target="WLESVQoLexFltELfVNAb-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-163" value="Prompt for new customer name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-165" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.425;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-162" target="WLESVQoLexFltELfVNAb-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1200" as="sourcePoint" />
+            <mxPoint x="460" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-166" value="Valid customer&lt;br&gt;&amp;nbsp;name?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-168" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-166" target="WLESVQoLexFltELfVNAb-170">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1520" as="sourcePoint" />
+            <mxPoint x="340" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-169" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-170" value="Error: invalid &lt;br&gt;customer name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
