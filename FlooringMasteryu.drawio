@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T18:52:24.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LyFKCFnPGdB82vmktuUw" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T19:01:49.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SYjCwfX2c_NO8EtqCGJq" version="15.8.2" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="3162" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
         <mxCell id="WLESVQoLexFltELfVNAb-65" value="Order date &amp;gt; todays date?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="45" y="630" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WLESVQoLexFltELfVNAb-66" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="WLESVQoLexFltELfVNAb-66" value="Prompt for &lt;br&gt;customer name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="30" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WLESVQoLexFltELfVNAb-67" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-64" target="WLESVQoLexFltELfVNAb-65">
@@ -282,6 +282,49 @@
             <Array as="points">
               <mxPoint x="-80" y="610" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-74" value="blank &lt;br&gt;or special characters?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-75" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-66" target="WLESVQoLexFltELfVNAb-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="880" as="sourcePoint" />
+            <mxPoint x="-10" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-76" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-74" target="WLESVQoLexFltELfVNAb-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="839" as="sourcePoint" />
+            <mxPoint x="-200" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-77" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-78" value="Error: Not a &lt;br&gt;valid name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-79" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="755" as="sourcePoint" />
+            <mxPoint x="-80" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-250" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="895" as="sourcePoint" />
+            <mxPoint x="-100" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-82" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
