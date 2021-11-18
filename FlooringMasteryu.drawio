@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T19:01:49.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SYjCwfX2c_NO8EtqCGJq" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T19:16:04.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="-DbNbJyV1z5ARtywrlaI" version="15.8.2" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="3162" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WLESVQoLexFltELfVNAb-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-74">
+        <mxCell id="WLESVQoLexFltELfVNAb-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.575;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-74" target="WLESVQoLexFltELfVNAb-83">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="895" as="sourcePoint" />
             <mxPoint x="-100" y="920" as="targetPoint" />
@@ -325,6 +325,61 @@
         <mxCell id="WLESVQoLexFltELfVNAb-82" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-81">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-83" value="Prompt for state" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-84" value="is entered &lt;br&gt;state present within tax file?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="1005" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-85" value="Check against tax file for state entered" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-86" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-83" target="WLESVQoLexFltELfVNAb-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-105" y="1020" as="sourcePoint" />
+            <mxPoint x="-55" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-87" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-85" target="WLESVQoLexFltELfVNAb-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="1120" as="sourcePoint" />
+            <mxPoint x="-240" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-88" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="1160" as="sourcePoint" />
+            <mxPoint x="-330" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-89" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-90" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-84" target="WLESVQoLexFltELfVNAb-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-540" y="1070" as="sourcePoint" />
+            <mxPoint x="-470" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-91" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-92" value="Error: Cannot &lt;br&gt;sell &lt;br&gt;as state not&lt;br&gt;&amp;nbsp;in tax file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-93" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.567;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-480" y="980" as="sourcePoint" />
+            <mxPoint x="-250" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-512" y="760" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
