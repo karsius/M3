@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T19:50:45.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="uiV1VhwEhVuOOC1velkK" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T20:07:01.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="F9a_V_SDMKXrE-SG_oE-" version="15.8.2" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="4262" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -525,6 +525,100 @@
             <mxPoint x="-1140" y="1290" as="sourcePoint" />
             <mxPoint x="-1090" y="1240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-128" target="WLESVQoLexFltELfVNAb-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-128" value="Service: Calculate next available order number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.938;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-130" target="WLESVQoLexFltELfVNAb-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-130" value="Display order&lt;br&gt;&amp;nbsp;summary" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-131" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-121" target="WLESVQoLexFltELfVNAb-130">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-400" y="1550" as="sourcePoint" />
+            <mxPoint x="-350" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-132" target="WLESVQoLexFltELfVNAb-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-132" value="prompt user if they want to place order(y/n)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1550" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-134" value="valid &lt;br&gt;selection?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-136" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-134" target="WLESVQoLexFltELfVNAb-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1070" y="1599.5" as="sourcePoint" />
+            <mxPoint x="-980" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-137" value="true" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-138" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-134" target="WLESVQoLexFltELfVNAb-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-880" y="1700" as="sourcePoint" />
+            <mxPoint x="-860" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-139" value="false" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-140" target="WLESVQoLexFltELfVNAb-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-140" value="Error: invalid &lt;br&gt;selection" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-142" value="place &lt;br&gt;order?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-143" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-142" target="WLESVQoLexFltELfVNAb-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1210" y="1570" as="sourcePoint" />
+            <mxPoint x="-1170" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-144" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-145" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1260" y="1510" as="sourcePoint" />
+            <mxPoint x="-1460" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1020" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-146" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="WLESVQoLexFltELfVNAb-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="WLESVQoLexFltELfVNAb-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="228" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1460" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLESVQoLexFltELfVNAb-147" value="Add order to order list/file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
